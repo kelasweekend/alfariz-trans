@@ -1,0 +1,283 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    color: #232b2b;
+    text-decoration: none;
+}
+
+/* navbar */
+
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-nav .active {
+    color: #454545;
+    font-weight: 700;
+    border-bottom: 4px #454545 solid;
+}
+
+.navbar .btn {
+    width: 200px;
+    padding-top: 13px;
+
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #454545;
+}
+
+header .jumbo {
+    text-align: center;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h2 {
+    margin: 0 auto;
+    padding-top: 180px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 350px;
+}
+
+.unggul {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.unggul .jumbo {
+    background-color: #e3e5f2;
+    border-radius: 20px;
+}
+
+.unggul .jumbo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.unggul .jumbo .row {
+    margin-top: 40px;
+}
+
+.unggul .jumbo .icon {
+    background-color: #fefefe;
+    padding: 8px;
+    border-radius: 15px;
+    margin-right: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.unggul .jumbo h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.bus {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.bus h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.bus .desc {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.bus .kotak {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    height: 420px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.bus .kotak .card {
+    border-radius: 15px;
+}
+
+.bus .kotak h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.bus .kotak .thumbnail {
+    border-radius: 15px;
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bus .kotak .img-bus {
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bus .kotak .img-bus:hover {
+    border: 2px #454545 solid;
+}
+
+.bus .kotak .title {
+    margin-left: 10px;
+}
+
+.bus .kotak .title h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.bus .kotak .title p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.promo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.promo .jumbo {
+    background-color: #e3e5f2;
+    border-radius: 20px;
+}
+
+.promo .jumbo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.promo .jumbo p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 600px;
+}
+
+.promo .jumbo .btn {
+    width: 300px;
+    padding-top: 18px;
+    margin-top: 25px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #454545;
+}
+
+.btn-sewa {
+    width: 300px;
+    padding-top: 10px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #454545;
+}
+
+.detail {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.detail h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.detail h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.detail .test {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.detail .title {
+    margin-left: 10px;
+}
+
+.detail .title h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.detail .title p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.detail .btn {
+    width: 300px;
+    padding-top: 18px;
+    margin-top: 30px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.detail .card {
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    height: 430px;
+    padding: 20px;
+}
+
+.detail .card .thumbnail {
+    border-radius: 15px;
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    object-position: center;
+}
