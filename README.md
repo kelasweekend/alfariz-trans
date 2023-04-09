@@ -14,4 +14,4 @@ Platfrom Sewa bus pariwisata sederhana
 
 ### Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/kelasweekend/alfariz-trans/main/public/img/alfariz.png)
