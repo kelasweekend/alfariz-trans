@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
 Route::get('armada/{id}', [App\Http\Controllers\HomeController::class, 'detail'])->name('index.detail');
+Route::get('lacak', [App\Http\Controllers\HomeController::class, 'lacak'])->name('lacak');
+Route::post('lacak', [App\Http\Controllers\HomeController::class, 'lacakStore'])->name('lacak.store');
 Route::get('sewa', [App\Http\Controllers\HomeController::class, 'sewa'])->name('sewa');
 Route::post('sewa', [App\Http\Controllers\HomeController::class, 'store'])->name('sewa.store');
 

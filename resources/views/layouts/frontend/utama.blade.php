@@ -40,6 +40,9 @@
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('sewa') ? 'active' : '' }}"
                             href="{{ route('sewa') }}">Sewa</a>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('lacak') ? 'active' : '' }}"
+                            href="{{ route('lacak') }}">Lacak Order</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#armada">Armada</a>
@@ -233,6 +236,7 @@
             });
         </script>
     @endif
+    @yield('scripts')
 </body>
 
 </html>

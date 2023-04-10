@@ -19,6 +19,16 @@ class HomeController extends Controller
         return view('home.index', compact('data'));
     }
 
+    public function lacak(Request $request)
+    {
+        $data = null;
+        if ($request->q) {
+            # code...
+            $data = Order::whereInvoice($request->q)->first();
+        }
+        return view('home.lacak', compact('data'));
+    }
+
     public function sewa()
     {
         return view('home.sewa');
